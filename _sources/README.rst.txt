@@ -43,7 +43,13 @@ Example::
 Installation
 ------------
 
-$ py -m pip install gerber_writer
+Linux::
+
+    $ python3 -m pip install gerber_writer
+
+Windows::
+
+    $ py -m pip install gerber_writer
 
 Requirements
 ------------
