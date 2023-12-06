@@ -2,6 +2,13 @@
 Change log of gerber_writer
 ===========================
 
+
+Version 0.4.2.17
+----------------
+
+- paths with '\' changed to '/' when used for both linux and windows,
+    a string like "..\abc\def" becomes r"../abc/def". Windows will then back off
+
 Version 0.4.2.15
 ----------------
 
